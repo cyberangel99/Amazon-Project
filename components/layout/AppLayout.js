@@ -1,6 +1,5 @@
 import React from 'react'
 import Header from './Header'
-import Navigation from './Navigation'
 import Footer from './Footer'
 
 export default function AppLayout(props) {
@@ -8,7 +7,6 @@ export default function AppLayout(props) {
   return (
     <div>
       <Header />
-      <Navigation />
       {children}
       <Footer />
     </div>
