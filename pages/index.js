@@ -6,9 +6,7 @@ import Footer from '../components/layout/Footer'
 function index() {
   return (
     <AppLayout>
-      <Header />
-      <AppLayout />
-      <Footer />
+      <div>content</div>
     </AppLayout>
   )
 }
