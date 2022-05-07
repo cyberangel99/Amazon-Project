@@ -1,11 +1,12 @@
 import React from 'react'
 import Button from '@mui/material/Button'
+import AppLayout from '../components/layout/AppLayout'
 
 function Home() {
   return (
-    <div>
+    <AppLayout>
       <Button variant="contained">Text</Button>
-    </div>
+    </AppLayout>
   )
 }
 

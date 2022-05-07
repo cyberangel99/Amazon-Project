@@ -1,15 +1,17 @@
 import React from 'react'
+import { Box, Container } from '@mui/material'
 import Header from './Header'
 import Footer from './Footer'
-import '@fontsource/roboto/400.css'
 
 export default function AppLayout(props) {
   const { children } = props
   return (
-    <div>
+    <Box>
       <Header />
-      {children}
+      <Container maxWidth={false} sx={{ padding: '24px' }}>
+        {children}
+      </Container>
       <Footer />
-    </div>
+    </Box>
   )
 }
