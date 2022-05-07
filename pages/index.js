@@ -1,12 +1,12 @@
 import React from 'react'
-import AppLayout from '../layout/AppLayout'
+import Button from '@mui/material/Button'
 
-function index() {
+function Home() {
   return (
-    <AppLayout>
-      <div>content</div>
-    </AppLayout>
+    <div>
+      <Button variant="contained">Text</Button>
+    </div>
   )
 }
 
-export default index
+export default Home

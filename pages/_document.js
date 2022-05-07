@@ -1,7 +1,7 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 import React from 'react'
 
-export default function _document() {
+export default function MyDocument() {
   return (
     <Html>
       <Head>
@@ -9,11 +9,12 @@ export default function _document() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
         />
-        <body>
-          <Main />
-          <NextScript />
-        </body>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
       </Head>
+      <body>
+        <Main />
+        <NextScript />
+      </body>
     </Html>
   )
 }
