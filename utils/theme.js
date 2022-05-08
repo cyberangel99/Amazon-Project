@@ -1,12 +1,21 @@
 // Default Theme: https://mui.com/material-ui/customization/default-theme/
 // Default Colors: https://mui.com/material-ui/customization/color/
 import { createTheme } from '@mui/material/styles'
-import { deepPurple } from '@mui/material/colors'
 
 const theme = createTheme({
+  components: {
+    MuiAppBar: {
+      styleOverrides: {
+        root: {
+          backgroundColor: '#131921',
+          color: '#FFF'
+        }
+      }
+    }
+  },
   palette: {
     primary: {
-      main: deepPurple.A200 // deepPurple['A200']
+      main: '#febd69'
     }
   }
 })
