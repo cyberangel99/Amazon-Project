@@ -1,5 +1,6 @@
 import { AppBar, Grid, Toolbar } from '@mui/material'
 import React from 'react'
+import Logo from '../Logo'
 
 export default function Header() {
   return (
@@ -7,7 +8,9 @@ export default function Header() {
       <Toolbar>
         <Grid container spacing={2}>
           <Grid item xs={2}>
-            <div>logo</div>
+            <div>
+              <Logo />
+            </div>
           </Grid>
           <Grid div xs={6}>
             <div>search</div>
