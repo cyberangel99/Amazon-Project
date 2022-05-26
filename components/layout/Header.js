@@ -1,6 +1,7 @@
-import { AppBar, Grid, Toolbar, TextField, Box } from '@mui/material'
+import { AppBar, Grid, Toolbar, TextField, Box, Button } from '@mui/material'
 import { grey } from '@mui/material/colors'
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart'
+import SearchIcon from '@mui/icons-material/Search'
 import React from 'react'
 import Logo from '../Logo'
 
@@ -22,11 +23,14 @@ export default function Header() {
                 variant="outlined"
                 sx={{
                   backgroundColor: grey[50],
-                  width: '100%',
+                  width: '93%',
                   borderRadius: '10px'
                 }}
                 size="small"
               />
+              <Button variant="contained">
+                <SearchIcon fontSize="medium" />
+              </Button>
             </Box>
           </Grid>
           <Grid item xs={1}>

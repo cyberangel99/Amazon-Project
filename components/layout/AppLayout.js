@@ -8,9 +8,7 @@ export default function AppLayout(props) {
   return (
     <Box>
       <Header />
-      <Container maxWidth={false} sx={{ padding: '24px' }}>
-        {children}
-      </Container>
+      <Container maxWidth={false}>{children}</Container>
       <Footer />
     </Box>
   )

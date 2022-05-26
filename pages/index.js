@@ -1,11 +1,12 @@
 import React from 'react'
-import Button from '@mui/material/Button'
+
 import AppLayout from '../components/layout/AppLayout'
+import BackDrop from '../components/layout/BackDrop'
 
 function Home() {
   return (
     <AppLayout>
-      <Button variant="contained">Text</Button>
+      <BackDrop />
     </AppLayout>
   )
 }
