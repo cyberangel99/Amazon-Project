@@ -8,7 +8,7 @@ export default function AppLayout(props) {
   return (
     <Box>
       <Header />
-      <Container maxWidth={false}>{children}</Container>
+      {children}
       <Footer />
     </Box>
   )
