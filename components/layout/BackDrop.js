@@ -2,6 +2,7 @@ import { Container, Grid, Typography } from '@mui/material'
 import React from 'react'
 import Image from 'next/image'
 import echoAmazon from '../../images/echo-1.png'
+import Products from './Products'
 
 export default function BackDrop() {
   return (
@@ -15,7 +16,7 @@ export default function BackDrop() {
         height: '100vh'
       }}
     >
-      <Grid container spacing={2} sx={{ marginTop: '35px' }}>
+      <Grid container spacing={2} sx={{ marginTop: '10px' }}>
         <Grid item xs={6}>
           <Typography variant="h4" sx={{ marginTop: '15%', textAlign: 'right', flex: 1 }}>
             <span style={{ fontWeight: 'bold', display: 'block', marginRight: '26%' }}>Alexa</span>{' '}
@@ -26,6 +27,7 @@ export default function BackDrop() {
           <Image src={echoAmazon} width={150} height={300} layout="intrinsic" alt="Echo Amazon" />
         </Grid>
       </Grid>
+      <Products />
     </Container>
   )
 }
