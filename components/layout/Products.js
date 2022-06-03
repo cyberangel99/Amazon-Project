@@ -19,8 +19,11 @@ export default function Products() {
       <Grid item xs={4}>
         <Card>dfafd</Card>
       </Grid>
-      <Grid item xs={12}>
+      <Grid item xs={8}>
         <Card>dfafd</Card>
+      </Grid>
+      <Grid item xs={4}>
+        fdfdfd
       </Grid>
     </Grid>
   )
