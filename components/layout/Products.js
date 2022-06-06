@@ -11,16 +11,19 @@ export default function Products() {
     axios
       .get(url)
       .then((response) => {
-        console.log(response)
+        setProducts(response.data.products)
       })
       .catch((error) => console.error(`Error: ${error}`))
   }
   useEffect(() => {
     getProducts()
   }, [])
+
   return (
     <Grid container spacing={2}>
-      <Product />
+      {products.map((product) => (
+        <Product />
+      ))}
     </Grid>
   )
 }
