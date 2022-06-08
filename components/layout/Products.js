@@ -23,6 +23,7 @@ export default function Products() {
     <Grid container spacing={2}>
       {products.map((product) => (
         <Product key={product.id} />
+        // need to pass a prop to component
       ))}
     </Grid>
   )
