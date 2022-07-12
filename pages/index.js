@@ -7,6 +7,7 @@ function Home() {
   return (
     <AppLayout>
       <BackDrop />
+      <Products />
     </AppLayout>
   )
 }
