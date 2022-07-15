@@ -21,7 +21,7 @@ export default function Products() {
 
   return (
     <Container maxWidth="xl">
-      <Grid container spacing={2} alignItems="center" justifyContent="center">
+      <Grid container spacing={2}>
         {products.map((product) => (
           <Product key={product.id} product={product} />
           // need to pass a prop to component
