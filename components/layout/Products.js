@@ -1,4 +1,4 @@
-import { Grid } from '@mui/material'
+import { Box, Container, Grid } from '@mui/material'
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Product from '../Product'
@@ -20,11 +20,13 @@ export default function Products() {
   }, [])
 
   return (
-    <Grid container spacing={2}>
-      {products.map((product) => (
-        <Product key={product.id} product={product} />
-        // need to pass a prop to component
-      ))}
-    </Grid>
+    <Container maxWidth="xl">
+      <Grid container spacing={2} alignItems="center" justifyContent="center">
+        {products.map((product) => (
+          <Product key={product.id} product={product} />
+          // need to pass a prop to component
+        ))}
+      </Grid>
+    </Container>
   )
 }

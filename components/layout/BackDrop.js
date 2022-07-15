@@ -5,15 +5,7 @@ import echoAmazon from '../../images/echo-1.png'
 
 export default function BackDrop() {
   return (
-    <Container
-      disableGutters
-      maxWidth="false"
-      sx={{
-        background:
-          'linear-gradient(180deg, rgba(138,215,255,1) 0%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%)',
-        overflow: 'hidden'
-      }}
-    >
+    <Container disableGutters maxWidth="false">
       <Grid container spacing={2} sx={{ marginTop: '10px', paddingBottom: '50px' }}>
         <Grid item xs={6}>
           <Typography variant="h4" sx={{ marginTop: '15%', textAlign: 'right', flex: 1 }}>
