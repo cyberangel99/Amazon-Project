@@ -1,4 +1,4 @@
-import { Card, Container, Grid, Typography } from '@mui/material'
+import { Card, Container, Grid, Rating, Typography } from '@mui/material'
 import React from 'react'
 import Image from 'next/image'
 import CardContent from '@mui/material/CardContent'
@@ -9,10 +9,12 @@ export default function Product({ product }) {
       <Card>
         <CardContent>
           <Typography>{product.name}</Typography>
-          <Typography>{product.price}</Typography>
-          <Typography>{product.rating}</Typography>
+          <Typography>${product.price}</Typography>
+          <Typography>
+            <Rating value={product.rating} precision={0.5} max={5} />
+          </Typography>
         </CardContent>
-        <Container style={{ justifyContent: 'center', display: 'flex' }}>
+        <Container style={{ justifyContent: 'center', display: 'flex', paddingBottom: '20px' }}>
           <Image src={product.image} width="100%" height="100%" alt="product image" />
         </Container>
       </Card>

@@ -20,7 +20,7 @@ export default function Products() {
   }, [])
 
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="xl" sx={{ padding: '50px' }}>
       <Grid container spacing={2}>
         {products.map((product) => (
           <Product key={product.id} product={product} />

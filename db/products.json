@@ -2,43 +2,43 @@
   {
     "id": "0f1188f1-2b66-42b2-b541-c19609f64cba",
     "name": "Apple Watch Series 6 (GPS, 40mm) - Blue Aluminum Case with Blue Sport Band",
-    "price": 492.57,
+    "price": 299.99,
     "image": "/images/apple-watch.png",
     "rating": 4
   },
   {
     "id": "356a69cb-a3be-453c-9d57-c0760a7865cd",
     "name": "The Associate: A Novel Paperback",
-    "price": 685.68,
+    "price": 25.99,
     "image": "/images/book.png",
-    "rating": 2
+    "rating": 3.5
   },
   {
     "id": "9db3d3aa-7151-4a5e-8c12-a24e1ab9d99d",
     "name": "Amazon Echo Wireless Smart Speaker - Smart Speakers & Assistants",
-    "price": 153.24,
+    "price": 99.99,
     "image": "/images/echo-amazon.png",
     "rating": 4
   },
   {
     "id": "fd080de4-f9c3-49bd-bf21-b45f3e1be10d",
     "name": "Apple 11-inch iPad Pro (WiFi, 128GB) - Silver",
-    "price": 569.87,
+    "price": 399.99,
     "image": "/images/ipad.png",
-    "rating": 1
+    "rating": 4.5
   },
   {
     "id": "72bb68de-d77f-4fb5-b7d5-fa41e1377686",
     "name": "KitchenAid KSM150PSER Artisan Tilt-Head Stand Mixer with Pouring Shield, 5-Quart, Empire Red",
-    "price": 969.7,
+    "price": 449.99,
     "image": "/images/mixer.png",
-    "rating": 1
+    "rating": 4
   },
   {
     "id": "ebc0f838-dd84-466b-b074-43a8638bbf14",
     "name": "HP 24mh FHD Monitor - Computer Monitor with 23.8-Inch IPS Display (1080p) - Built-In Speakers and VESA Mounting - Height/Tilt Adjustment for Ergonomic Viewing - HDMI and DisplayPort ",
-    "price": 378.02,
+    "price": 350.99,
     "image": "/images/tv.png",
-    "rating": 1
+    "rating": 4.5
   }
 ]
