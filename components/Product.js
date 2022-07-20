@@ -1,4 +1,4 @@
-import { Card, Container, Grid, Rating, Typography } from '@mui/material'
+import { Card, Container, Grid, Rating, Typography, Button } from '@mui/material'
 import React from 'react'
 import Image from 'next/image'
 import CardContent from '@mui/material/CardContent'
@@ -16,6 +16,9 @@ export default function Product({ product }) {
         </CardContent>
         <Container style={{ justifyContent: 'center', display: 'flex', paddingBottom: '20px' }}>
           <Image src={product.image} width="100%" height="100%" alt="product image" />
+        </Container>
+        <Container style={{ justifyContent: 'center', display: 'flex', paddingBottom: '20px' }}>
+          <Button variant="contained">Add to Cart</Button>
         </Container>
       </Card>
     </Grid>
